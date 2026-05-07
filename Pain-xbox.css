@@ -1,0 +1,61 @@
+/* =========================
+   PAIN XBOX OVERLAY CSS
+   For Gamepad Viewer / OBS
+   ========================= */
+
+/* MAIN CONTROLLER BODY */
+.controller.custom {
+    position: relative;
+    width: 1000px;
+    height: 600px;
+    background: url("https://your-image-host.com/your-xbox-photo.png") no-repeat center;
+    background-size: contain;
+}
+
+/* GENERAL BUTTON STYLE */
+.button {
+    position: absolute;
+    transition: all 0.05s ease;
+}
+
+/* PRESSED EFFECT */
+.button.pressed {
+    transform: scale(0.92);
+    filter: brightness(1.5);
+}
+
+/* =========================
+   ABXY BUTTONS
+   ========================= */
+.a {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.08);
+    top: 248px;
+    left: 792px;
+}
+.b {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: rgba(255,0,0,0.15);
+    top: 205px;
+    left: 842px;
+}
+.x {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.08);
+    top: 205px;
+    left: 742px;
+}
+.y {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.08);
+    top: 155px;
+    left: 792px;
+}Copied!   

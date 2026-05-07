@@ -6,8 +6,8 @@
 /* MAIN CONTROLLER BODY */
 .controller.custom {
     position: relative;
-    width: 784px;  /* Standard Xbox One skin width */
-    height: 558px; /* Standard Xbox One skin height */
+    width: 1365px;  /* Standard Xbox One skin width */
+    height: 910px; /* Standard Xbox One skin height */
     background: url("https://i.imgur.com/Vd5fmUA.png") no-repeat center top;
     background-size: contain;
 }

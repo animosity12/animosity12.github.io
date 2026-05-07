@@ -6,18 +6,16 @@
 /* MAIN CONTROLLER BODY */
 .controller.custom {
     position: relative;
-    width: 1000px;
-    height: 600px;
-    background: url("https://i.imgur.com/Vd5fmUA.png") no-repeat center;
+    width: 784px;  /* Standard Xbox One skin width */
+    height: 558px; /* Standard Xbox One skin height */
+    background: url("https://i.imgur.com/Vd5fmUA.png") no-repeat center top;
     background-size: contain;
-    background-color: transparent; /* Ensures no white background */
 }
 
 /* GENERAL BUTTON STYLE */
 .button {
     position: absolute;
     transition: all 0.05s ease;
-    background-color: transparent; /* Prevents default button color */
 }
 
 /* PRESSED EFFECT */

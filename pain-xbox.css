@@ -1,4 +1,3 @@
-/* MAIN CONTROLLER BODY */
 .controller.custom {
     width: 784px;
     height: 558px;
@@ -6,41 +5,24 @@
     background-size: contain;
 }
 
-/* GENERAL BUTTON STYLE */
 .button {
     position: absolute;
     transition: all 0.05s ease;
 }
 
-/* PRESSED EFFECT */
 .button.pressed {
     transform: scale(0.92);
     filter: brightness(1.5);
 }
 
-/* ABXY BUTTONS */
+.a { top: 248px; left: 792px; }
+.b { top: 205px; left: 842px; }
+.x { top: 205px; left: 742px; }
+.y { top: 155px; left: 792px; }
+
 .a, .b, .x, .y {
     width: 48px;
     height: 48px;
     border-radius: 50%;
-}
-.a {
-    background: rgba(255,255,255,0.08);
-    top: 248px;
-    left: 792px;
-}
-.b {
-    background: rgba(255,0,0,0.15);
-    top: 205px;
-    left: 842px;
-}
-.x {
-    background: rgba(255,255,255,0.08);
-    top: 205px;
-    left: 742px;
-}
-.y {
-    background: rgba(255,255,255,0.08);
-    top: 155px;
-    left: 792px;
+    background: rgba(255,255,255,0.1);
 }Copied!   
